@@ -1,8 +1,28 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.dark {
+  background-color: #242424;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 .logo {
